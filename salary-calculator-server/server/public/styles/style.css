@@ -1,0 +1,91 @@
+/* Element Styling */
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  background-color: #00B7B7;;
+  margin: 30px 50px;
+  line-height: 1.4;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table, th{
+  background-color: lightgray;
+  border-style: hidden;
+  width: 800px;
+  text-align: center;
+  border-bottom-style: double;
+}
+
+table{
+  outline-style: double;
+}
+
+th{
+  font-size: 17px;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+
+/* Id Styling */
+#header{
+  background-color: lightgray;
+  padding: 10px;
+  text-decoration: underline;
+  width: 100%;
+}
+
+#inputs{
+  padding: 30px;
+  align-self: right;
+}
+
+#first-name, #last-name, #Id, #title, #annual-salary{
+  background-color: lightgray;
+  font-style: italic;
+}
+
+#sButton{
+  text-align: end;
+} 
+
+#submit{
+  margin: 10px;
+  font-weight: bold;
+  font-size: 0.9em;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: white;
+}
+
+#data{
+  padding: 30px;
+}
+
+#row{
+  border-bottom-style: double;
+}
+
+#delete{
+  margin: 10px;
+  font-weight: bold;
+  font-size: 0.9em;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: white;
+  color: red;
+}
+
+#redoBtn{
+  margin: 10px;
+  font-weight: bold;
+  font-size: 0.9em;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: white;
+}

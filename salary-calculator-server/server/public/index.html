@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SalaryCalculator</title>
+    <script src="vendors/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/client.js"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <h1>Salary Calculator</h1>
+    </div>
+    <!-- end of header -->
+
+    <div id="inputs">
+        <!-- this is where the input boxes & submit button will go -->
+        <h2>Add Employee</h2>
+        <input id="first-name" type="text" placeholder="Name" />
+        <input id="last-name" type="text" placeholder="Last Name" />
+        <input id="Id" type="number" placeholder="Id Number" />
+        <input id="title" type="text" placeholder="Title" />
+        <input id="annual-salary" type="number" placeholder="Annual Salary" />
+        <button id="submit">Submit</button>
+    </div>
+    <!-- end of inputs & submit button-->
+
+
+    <!--this is where the table of the employees will go -->
+    <div id="data">
+        <h2>Employees</h2>
+    </div>
+    <!-- end of data -->
+
+    <!-- this is where Total Monthly will display with the amt -->
+    <div id="footer">
+        <h2 class="monthlySal">Total Monthly: </h2>
+    </div>
+    <!-- end of footer -->
+
+</body>
+
+</html>
